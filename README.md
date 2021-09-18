@@ -13,6 +13,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 *  Verificar se tem python instalado: python3 --version
 
-## Duvidas Python
-* 
+## GitHub para o Curso
+* GitHub: [AQUI](https://github.com/JuniorCardoso-py/Pw-Sabados)
 
