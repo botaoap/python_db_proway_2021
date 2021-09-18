@@ -1,0 +1,3 @@
+{'id': 1, 'nome': 'Produto1', 'preco': '14'} 
+{'id': 2, 'nome': 'Produto2', 'preco': '15'} 
+{'id': 3, 'nome': 'Produto3', 'preco': '17'} 
