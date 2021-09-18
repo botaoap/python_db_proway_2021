@@ -1,5 +1,3 @@
-# Python Trabalhando com Banco de Dados
-
 ## Python Avançado
 - Classes
 
