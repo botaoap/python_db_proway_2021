@@ -29,30 +29,31 @@ class Pessoa:
         # self.id = 0
         # self.nome = nome_pessoa
         # self.idade = idade_pessoa
-        self.pessoa = pessoa 
+        # self.pessoa = pessoa 
         # clientes = {
         #     "id": 0,
         #     "nome": nome_pessoa,
         #     "idade": idade_pessoa
         # }
-
-    @classmethod
-    def banco_de_dados(cls,id, nome_pessoa, idade_pessoa):
-        db_pessoa = {
-            'id': id,
-            'nome': nome_pessoa,
-            'idade': idade_pessoa
-        }
-        cliente = {
+        self.pessoa = pessoa
+    cliente = {
             'cliente': {}
         }
-        cliente['cliente'] = db_pessoa
+    @classmethod
+    def banco_de_dados(cls,id, nome_pessoa, idade_pessoa):
+        db_pessoa = {id: {
+                'nome': nome_pessoa,
+                'idade': idade_pessoa
+            }   
+        }
+        
+        cls.cliente['cliente'].update(db_pessoa)
 
         # db_pessoa['id'] = id
         # db_pessoa['nome'] = nome_pessoa
         # db_pessoa['idade'] = idade_pessoa
 
-        return cls(cliente)
+        return cls(cls.cliente)
     
     def ler_pessoa(self):
         return self.pessoa
