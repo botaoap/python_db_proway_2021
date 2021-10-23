@@ -9,3 +9,6 @@ To install pytest(linux)
 
 To execute test
 - pytest [local da pasta para executar]
+
+To install connector to DB
+- pip install PyMySQL
